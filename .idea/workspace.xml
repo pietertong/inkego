@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0afeb811-2ffc-4a9a-ba58-9c3a2ee8f40c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld/src/chat-three/three_point_one.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld/src/common/funclib.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/helloworld/src/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/chat-two/two_point_one.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/chat-two/two_point_one.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/chat-two/two_point_three.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/chat-two/two_point_three.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/chat-two/two_point_two.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/chat-two/two_point_two.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/runtestgo.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld/src/helloword.go" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/src/chat-three/chat_three.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/src/chat_five/chat_five.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/src/chat_five/closure_function.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/helloworld/src/goenvsystem/goenvsystem.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/src/chat_five/runfuncgo.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/chat_five/runfuncgo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/helloworld/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld/src/main.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,30 +28,36 @@
     <session id="894856712">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="8" />
+          <entry key="gitignore" value="1" />
+          <entry key="go" value="23" />
           <entry key="md" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="8" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Go" value="23" />
+          <entry key="PLAIN_TEXT" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="730" />
+          <entry key="gitignore" value="8" />
+          <entry key="go" value="1590" />
+          <entry key="txt" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="730" />
+          <entry key="Go" value="1590" />
+          <entry key="PLAIN_TEXT" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.go.postfix.template.usages.trigger">
@@ -64,24 +68,63 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helloworld/src/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="19">
+              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
               <folding>
-                <element signature="e#14#31#0" expanded="true" />
+                <element signature="e#291#323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helloworld/src/common/funclib.go">
+        <entry file="file://$PROJECT_DIR$/helloworld/src/chat-two/chat_two.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helloworld/src/chat_five/runfuncgo.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="15" />
+              <folding>
+                <element signature="e#19#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helloworld/src/chat_five/closure_function.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="14" selection-start-column="8" selection-end-column="14" />
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helloworld/src/chat_five/chat_five.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -94,6 +137,12 @@
         <option value="Go File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>demo_map</find>
+      <find>PersonInfo</find>
+    </findStrings>
   </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
@@ -127,7 +176,17 @@
         <option value="$PROJECT_DIR$/helloworld/common/funclib.go" />
         <option value="$PROJECT_DIR$/helloworld/runfuncgo.go" />
         <option value="$PROJECT_DIR$/helloworld/src/runfuncgo.go" />
+        <option value="$PROJECT_DIR$/helloworld/back/runtestgo.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/goenvsystem/goenvsystem.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/chat-two/chat-two.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/chat-two/chat_two.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/chat-three/chat_three.go" />
         <option value="$PROJECT_DIR$/helloworld/src/main.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/chat_five/chat_five.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/chat-one/chat-one.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/chat_five/runfuncgo.go" />
+        <option value="$PROJECT_DIR$/helloworld/src/chat_five/closure_function.go" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -138,10 +197,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
-    <option name="y" value="-121" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="1701" />
+    <option name="y" value="109" />
+    <option name="width" value="1026" />
+    <option name="height" value="546" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -149,6 +208,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,13 +232,19 @@
               <item name="inkego" type="462c0819:PsiDirectoryNode" />
               <item name="helloworld" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="chat-one" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inkego" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inkego" type="462c0819:PsiDirectoryNode" />
+              <item name="helloworld" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chat_five" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -200,6 +266,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="Z:\devespace\inkego\helloworld\src\chat_five" />
       <recent name="Z:\devespace\inkego\helloworld\src" />
       <recent name="Z:\devespace\inkego\helloworld\chat-two" />
       <recent name="Z:\devespace\inkego\helloworld\chat-three" />
@@ -316,7 +383,7 @@
     <frame x="1358" y="-121" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.1369936" />
       <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" weight="0.18229954" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,7 +392,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3308026" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.5" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -351,6 +418,42 @@
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="right" id="Capture Analysis" order="12" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4967213" visible="true" weight="0.1369936" />
+      <window_info id="Structure" order="1" sideWeight="0.5032787" side_tool="true" weight="0.18229954" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.5" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="CheckStyle" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.3786885" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" sideWeight="0.49924356" weight="0.3786885" />
+      <window_info anchor="bottom" id="XMake" order="12" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.6442623" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Merger" order="5" />
+      <window_info anchor="right" id="Cargo" order="6" />
+      <window_info anchor="right" id="Mongo Explorer" order="7" />
+      <window_info anchor="right" id="SciView" order="8" />
+      <window_info anchor="right" id="Database" order="9" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info anchor="right" id="Capture Analysis" order="12" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -360,7 +463,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第二章 顺序编程-基础" />
-    <option name="LAST_COMMIT_MESSAGE" value="第二章 顺序编程-基础" />
+    <MESSAGE value="总结GO语言中函数的调用规则：&#10;&#10;首字母大小写的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="总结GO语言中函数的调用规则：&#10;&#10;首字母大小写的问题" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -418,49 +522,94 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/helloword.go">
+    <entry file="file://$PROJECT_DIR$/helloworld/src/helloword.go" />
+    <entry file="file://$PROJECT_DIR$/helloworld/src/runtestgo.go" />
+    <entry file="file://$PROJECT_DIR$/helloworld/src/runfuncgo.go" />
+    <entry file="file://C:/Go/src/os/env.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        <state relative-caret-position="1412">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/runtestgo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="145" column="1" lean-forward="true" selection-start-line="145" selection-start-column="1" selection-end-line="145" selection-end-column="1" />
-          <folding>
-            <element signature="n#!!block;n#demo_boolean#0" />
-            <element signature="n#!!block;n#demo_int_equal#0" />
-            <element signature="n#!!block;n#demo_string#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld/src/runfuncgo.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="57" lean-forward="true" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
-          <folding>
-            <element signature="e#14#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/back/helloword.go" />
+    <entry file="file://$PROJECT_DIR$/helloworld/back/runtestgo.go" />
     <entry file="file://$PROJECT_DIR$/helloworld/src/common/funclib.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="8" selection-end-column="14" />
+        <state relative-caret-position="38">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/goenvsystem/goenvsystem.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+          <folding>
+            <element signature="e#21#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/chat-three/chat_three.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helloworld/src/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="19">
+          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
-            <element signature="e#14#31#0" expanded="true" />
+            <element signature="e#291#323#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/chat-one/chat-one.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/chat_five/chat_five.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/chat-two/chat_two.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/chat_five/runfuncgo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="43" column="11" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="15" />
+          <folding>
+            <element signature="e#19#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helloworld/src/chat_five/closure_function.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
