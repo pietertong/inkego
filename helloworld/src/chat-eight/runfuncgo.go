@@ -1,0 +1,1 @@
+package chat_eightfunc ChatEight() {	eight_main()}
