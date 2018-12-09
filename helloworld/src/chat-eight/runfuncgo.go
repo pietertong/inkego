@@ -8,4 +8,5 @@ func ChatEight() {
     //eight_onethree_main()
     eight_demo_main()
     eight_struct_tags()
+    eight_extends_main()
 }
