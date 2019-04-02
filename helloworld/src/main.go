@@ -9,33 +9,34 @@ package main
 
 //导入改程序需要的依赖包，不要在源代码中未使用的包，否则会报编译错误
 import (
-	"chat-eight"
-	"fmt"
-	"goenvsystem"
-	"time"
+    "chat-eleven"
+    "fmt"
+    "goenvsystem"
+    "time"
 )
 
 // main()函数不能带任何参数，也不能定义返回值，
 //命令行传入的参数是在 os.Args 变量中保存
 
 func main() {
-	/**
-	  打印当前时间
-	*/
-	now()
-	fmt.Println("Go,Lang,Hello,World!")
-	_, _, last_name := get_name()
-	fmt.Println(last_name)
-	goenvsystem.GetSystemGoenv()
-	//chat_five.ChatFive()
-	chat_eight.ChatEight()
+    /**
+      打印当前时间
+    */
+    now()
+    fmt.Println("Go,Lang,Hello,World!")
+    _, _, last_name := get_name()
+    fmt.Println(last_name)
+    goenvsystem.GetSystemGoenv()
+    //chat_five.ChatFive()
+    //chat_eight.ChatEight()
+    chat_eleven.ChatEleven()
 }
 
 /**
 匿名函数
 */
 func get_name() (frist_name, second_name, last_name string) {
-	return "Zhao", "shu", "yu"
+    return "Zhao", "shu", "yu"
 }
 
 /**
@@ -44,5 +45,5 @@ func 函数名(参数列表)(返回值列表){
 }
 */
 func now() {
-	fmt.Println("当前时间 : ", time.Now())
+    fmt.Println("当前时间 : ", time.Now())
 }
