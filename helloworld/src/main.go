@@ -9,9 +9,11 @@ package main
 
 //导入改程序需要的依赖包，不要在源代码中未使用的包，否则会报编译错误
 import (
-    "chat-eleven"
+    //"chat-eleven"
     "fmt"
-    "goenvsystem"
+    "goweb"
+    "os"
+    //"goenvsystem"
     "time"
 )
 
@@ -23,13 +25,15 @@ func main() {
       打印当前时间
     */
     now()
-    fmt.Println("Go,Lang,Hello,World!")
-    _, _, last_name := get_name()
-    fmt.Println(last_name)
-    goenvsystem.GetSystemGoenv()
+    //fmt.Println("Go,Lang,Hello,World!")
+    //_, _, last_name := get_name()
+    fmt.Println(os.TempDir())
+    //fmt.Println(last_name)
+    //goenvsystem.GetSystemGoenv()
     //chat_five.ChatFive()
     //chat_eight.ChatEight()
-    chat_eleven.ChatEleven()
+    //chat_eleven.ChatEleven()
+    goweb.ConstructServices()
 }
 
 /**
