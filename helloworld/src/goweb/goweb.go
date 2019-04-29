@@ -5,6 +5,7 @@ import (
     "fmt"
     "log"
     "net/http"
+    "strconv"
     "text/template"
 )
 
@@ -31,11 +32,17 @@ func loginHandler(w http.ResponseWriter, r *http.Request) {
         r.ParseForm()
         username := r.Form["username"]
         password := r.Form["password"]
+        fmt.Println("password:",password)
         fmt.Println("username:",username)
         if len(username) > 0 {
             fmt.Println("username's length more than : " ,0)
         }
-        fmt.Println("password:",password)
+        num := r.Form.Get("num")
+        getint,err := strconv.Atoi(num)
+        fmt.Print(fmt.Sprintf("%s,%s",num,getint))
+        if err != nil{
+            fmt.Println(fmt.Sprintf("%s","数字转化出错,那么可能就不是数字"))
+        }
     }
 }
 func templateHandler(w http.ResponseWriter, r *http.Request){
